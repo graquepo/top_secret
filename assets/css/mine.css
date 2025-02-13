@@ -287,8 +287,9 @@ content: '';
 .content2 {
   display: flex;
   align-content: center;
-  justify-content: space-between;
-  column-gap: 1rem;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-top: 10px;
 }
 
 /* shooting stars */
