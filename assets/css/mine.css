@@ -390,3 +390,11 @@ content: '';
     51vw 92vh 2px white, 59vw 78vh 1px white;
   animation: twinkle 6s infinite linear reverse;
 }
+
+.hidden-fade-slide {
+  opacity: 0;
+}
+
+#container {
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
