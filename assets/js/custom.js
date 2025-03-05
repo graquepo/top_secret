@@ -7,11 +7,10 @@ document.addEventListener("DOMContentLoaded", function () {
                 .then(response => response.text())
                 .then(content => {
                     container.innerHTML = content;
-                    console.log(content);
                     container.classList.remove(transitionClass); // Remove effect after load
                     attachLinkListeners(); // Rebind events
                 });
-        }, 800);
+        }, 500);
     }
 
     function attachLinkListeners() {
